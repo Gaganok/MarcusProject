@@ -7,7 +7,7 @@ public class Sprite {
 	private int[] pixels;
 	private BufferedImage sprite;
 	private int width, height;
-	
+
 	Sprite(BufferedImage spriteSheet, int i) {
 		
 	}
@@ -37,5 +37,4 @@ public class Sprite {
 	public int getHeight() {
 		return height;
 	}
-	
 }
